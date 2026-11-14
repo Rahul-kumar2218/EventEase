@@ -1,0 +1,27 @@
+{
+  "name": "eventease",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "EventEase - Enterprise Event Management & Security Platform (2026 Edition)",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "test": "node run-all-tests.js",
+    "test:workflow": "node test-workflow.js",
+    "test:concurrency": "node test-concurrency.js",
+    "test:advanced": "node test-advanced-features.js"
+  },
+  "keywords": [
+    "event-management",
+    "qr-code",
+    "check-in",
+    "duplicate-prevention",
+    "attendance"
+  ],
+  "author": "EventEase Team",
+  "license": "MIT"
+}

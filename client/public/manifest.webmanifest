@@ -1,0 +1,17 @@
+{
+  "name": "EventEase - Enterprise Event Management & Gate OS",
+  "short_name": "EventEase",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "description": "High-Speed Campus Event Registration, Signed Cryptographic QR Gate Check-In & Live Crowd Telemetry",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+
